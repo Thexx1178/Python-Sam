@@ -5,7 +5,11 @@ def wern():
     print("b is greater than a")
 
 def panyakorn():
-  print()
+  num = int(input())
+  if num % 2 == 0:
+    print(f"{num} is even number")
+  else:
+    print(f"{num} is odd number")
 
 def um():
   print("hello mod hello wern")
